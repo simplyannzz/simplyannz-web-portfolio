@@ -47,14 +47,16 @@ a {
 p {
   font-size: 16px;
 }
-/* Animated Logo */
+/* Animated Logo in Hero */
 .alogo {
   height: 600px;
-  width: 100%;
+  width: 80%;
   margin-bottom: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 h1 {
   font-size: 20px;
@@ -62,4 +64,16 @@ h1 {
 }
 h2 {
   font-size: 18px;
+  font-weight: 400;
+}
+.about {
+}
+footer {
+  color: #ebe3d6;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  display: center;
+  background-color: #c5842f;
 }
