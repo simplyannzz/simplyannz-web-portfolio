@@ -43,10 +43,6 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-
-p {
-  font-size: 16px;
-}
 /* Animated Logo in Hero */
 .alogo {
   height: 600px;
@@ -59,14 +55,33 @@ p {
   padding-bottom: 20px;
 }
 h1 {
+  color: #ebe3d6;
   font-size: 20px;
+  padding-left: 50px;
   font-weight: 600;
 }
 h2 {
   font-size: 18px;
-  font-weight: 400;
+  color: #ebe3d6;
+  font-weight: 600;
+  padding-left: 50px;
 }
-.about {
+/* About me section (neeed to fix annie image + position it to the side) */
+.content {
+  width: auto;
+  height: 300px;
+  background-color: #5f7669;
+  padding: 50px;
+}
+/* cant figure out how to chnage text color in about me section*/
+.about p {
+  color: #ebe3d6;
+  font-size: 16px;
+}
+/* Annie Image (need to figure out how to move the pic to the side + make it static)*/
+#annie {
+  height: 300px;
+  width: 300px;
 }
 footer {
   color: #ebe3d6;
@@ -76,4 +91,17 @@ footer {
   width: 100%;
   display: center;
   background-color: #c5842f;
+}
+
+/* This the Media Query */
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+}
+
+/* Small smartphones  */
+@media screen and (max-width: 576px) {
 }
