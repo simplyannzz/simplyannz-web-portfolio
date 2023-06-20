@@ -59,13 +59,22 @@ h1 {
   font-size: 20px;
   padding-left: 50px;
   font-weight: 600;
+  text-align: center;
 }
 h2 {
   font-size: 18px;
   color: #ebe3d6;
   font-weight: 600;
   padding-left: 50px;
+  text-align: center;
 }
+/* Paragraph elements*/
+p {
+  color: #ebe3d6;
+  font-size: 16px;
+  text-align: center;
+}
+
 /* About me section (neeed to fix annie image + position it to the side) */
 .content {
   width: auto;
@@ -73,11 +82,7 @@ h2 {
   background-color: #5f7669;
   padding: 50px;
 }
-/* cant figure out how to chnage text color in about me section*/
-.about p {
-  color: #ebe3d6;
-  font-size: 16px;
-}
+
 /* Annie Image (need to figure out how to move the pic to the side + make it static)*/
 #annie {
   height: 300px;
