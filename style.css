@@ -15,12 +15,14 @@ body {
   padding: 10px;
   background-color: #c5842f;
   color: #ebe3d6;
+  position: sticky;
+  top: 0;
 }
 /* Logo */
 #logo {
   width: 100px;
   height: 60px;
-  padding-left: 20px;
+  margin-left: 50px;
 }
 /* Nav Link */
 .header nav {
@@ -52,7 +54,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 h1 {
   color: #ebe3d6;
@@ -75,7 +77,7 @@ p {
   text-align: center;
 }
 
-/* About me section (neeed to fix annie image + position it to the side) */
+/* About me section */
 .about {
   display: flex;
   justify-content: center;
@@ -85,7 +87,7 @@ p {
   padding: 50px;
 }
 
-/* Annie Image (need to figure out how to move the pic to the side + make it static)*/
+/* Annie Image */
 #annie {
   height: 300px;
   max-width: 300px;
@@ -112,6 +114,7 @@ footer {
   width: 100%;
   display: center;
   background-color: #c5842f;
+  position: sticky;
 }
 
 /* This the Media Query */
