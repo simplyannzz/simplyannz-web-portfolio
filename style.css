@@ -76,9 +76,11 @@ p {
 }
 
 /* About me section (neeed to fix annie image + position it to the side) */
-.content {
-  width: auto;
-  height: 300px;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
   background-color: #5f7669;
   padding: 50px;
 }
@@ -86,7 +88,21 @@ p {
 /* Annie Image (need to figure out how to move the pic to the side + make it static)*/
 #annie {
   height: 300px;
-  width: 300px;
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+}
+/* NEED TO FIGURE OUT HOW TO MAKE IT GO HORIZONTIALLY */
+.about h1 {
+  font-size: 20px;
+}
+/* NEED TO FIGURE OUT HOW TO MAKE IT GO HORIZONTIALLY */
+.about h2 {
+  font-size: 18px;
+}
+/* NEED TO FIGURE OUT HOW TO MAKE IT GO HORIZONTIALLY */
+.about p {
+  font-size: 16px;
 }
 footer {
   color: #ebe3d6;
