@@ -12,7 +12,7 @@ body {
 }
 /* navigation Bar */
 .header {
-  padding: 10px;
+  padding: 7px;
   background-color: #c5842f;
   color: #ebe3d6;
   position: sticky;
@@ -96,7 +96,7 @@ p {
 }
 /* NEED TO FIGURE OUT HOW TO MAKE IT GO HORIZONTIALLY */
 .about h1 {
-  font-size: 20px;
+  font-size: 25px;
 }
 /* NEED TO FIGURE OUT HOW TO MAKE IT GO HORIZONTIALLY */
 .about h2 {
@@ -106,15 +106,43 @@ p {
 .about p {
   font-size: 16px;
 }
-footer {
-  color: #ebe3d6;
+/* NEED TO FIGURE OUT HOW TO HAVE ONE BIG IMAGE, 3 SMALL IMAGE ON THE BOTTOM OF TOP */
+.works {
+  background-color: #ebe3d6;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.works h1 {
+  color: #c5842f;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15px;
+}
+.works img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  /* Uses the height of the viewport */
+  height: 40vh;
   margin: 0 auto;
-  text-align: left;
-  padding: 10px;
-  width: 100%;
-  display: center;
+}
+/* Footer Contact */
+footer {
   background-color: #c5842f;
-  position: sticky;
+  padding: 30px;
+}
+.contact {
+  text-align: right;
+}
+/* Footer Contact social media icon */
+.social {
+  width: 300px;
+  height: 900px;
+  border: 3px solid #5f7669;
+  box-sizing: border-box;
 }
 
 /* This the Media Query */
