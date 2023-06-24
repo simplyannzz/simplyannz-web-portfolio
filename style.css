@@ -17,19 +17,24 @@ body {
   color: #ebe3d6;
   position: sticky;
   top: 0;
+  display:flex;
 }
 /* Logo */
 #logo {
   width: 100px;
   height: 60px;
   margin-left: 50px;
+  display: flex;
 }
 /* Nav Link */
 .header nav {
   padding-top: 20px;
   margin-right: 40px;
-  float: right;
   font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  flex-direction: row-reverse;
 }
 /* Lists of content in Nav */
 .header nav ul {
@@ -116,52 +121,83 @@ p {
   position: relative;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
 }
 .works h1 {
   color: #c5842f;
   font-size: 25px;
   text-align: center;
-  padding-top: 15px;
+  padding: 40px;
 }
 .works img {
+  background-position: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto;
+  width: 30%;
   /* Uses the height of the viewport */
   height: 40vh;
   margin: 0 auto;
 }
+#image1 {
+  width: 90%;
+  margin-bottom: 15px;
+}
 /* Footer Contact */
 footer {
   background-color: #c5842f;
-  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .contact {
   text-align: right;
   color: #ebe3d6;
+  width: 50%;
 }
 .contact-me-text {
   text-align: right;
 }
+.socialContainer {
+  width: 50%;
+}
 /* Footer Contact social media icon */
 .social {
-  width: 300px;
-  height: 900px;
-  border: 3px solid #5f7669;
-  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  position: relative;
+  margin: auto;
 }
 
 /* This the Media Query */
-/* Tablets - header changes color */
+/* Tablets  */
 @media screen and (max-width: 992px) {
 }
 
-/* Large smartphones - navbar changes color */
+/* Large smartphones */
 @media screen and (max-width: 768px) {
 }
 
 /* Small smartphones  */
 @media screen and (max-width: 576px) {
+  .works img {
+  background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40vh;
+    margin: 2%;
+}
+.works h1 { 
+  width: 100%;
 }
