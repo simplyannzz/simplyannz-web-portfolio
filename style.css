@@ -155,13 +155,15 @@ p {
   justify-content: center;
   align-items: center;
   width: 30%;
+  scale: 85%;
   /* Uses the height of the viewport */
   height: auto;
   margin: 0 auto;
 }
 #image1 {
   width: 97%;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
+  scale: 93%;
 }
 /* Footer Contact */
 footer {
