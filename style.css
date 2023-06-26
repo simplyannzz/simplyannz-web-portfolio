@@ -17,7 +17,7 @@ body {
   color: #ebe3d6;
   position: sticky;
   top: 0;
-  display:flex;
+  display: flex;
 }
 /* Logo */
 #logo {
@@ -60,7 +60,13 @@ a {
   margin-right: auto;
   padding-top: 50px;
   padding-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
+
 h1 {
   color: #ebe3d6;
   font-size: 20px;
@@ -114,6 +120,12 @@ p {
   font-size: 16px;
   color: #ebe3d6;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 /* NEED TO FIGURE OUT HOW TO HAVE ONE BIG IMAGE, 3 SMALL IMAGE ON THE BOTTOM OF TOP */
 .works {
@@ -124,13 +136,17 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
 }
 .works h1 {
   color: #c5842f;
   font-size: 25px;
   text-align: center;
   padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
 }
 .works img {
   background-position: center;
@@ -140,12 +156,12 @@ p {
   align-items: center;
   width: 30%;
   /* Uses the height of the viewport */
-  height: 40vh;
+  height: auto;
   margin: 0 auto;
 }
 #image1 {
-  width: 90%;
-  margin-bottom: 15px;
+  width: 97%;
+  margin-bottom: 30px;
 }
 /* Footer Contact */
 footer {
@@ -161,12 +177,15 @@ footer {
   text-align: right;
   color: #ebe3d6;
   width: 50%;
+  padding-top: 2%;
 }
 .contact-me-text {
   text-align: right;
 }
 .socialContainer {
   width: 50%;
+  padding-top: 3%;
+  padding-left: 2%;
 }
 /* Footer Contact social media icon */
 .social {
@@ -180,16 +199,28 @@ footer {
 /* This the Media Query */
 /* Tablets  */
 @media screen and (max-width: 992px) {
+  .socialContainer {
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 2%;
+    display: inline-block;
+  }
 }
 
 /* Large smartphones */
 @media screen and (max-width: 768px) {
+  .socialContainer {
+    width: 50%;
+    padding-top: 7%;
+    padding-left: 2%;
+    display: inline-block;
+  }
 }
 
 /* Small smartphones  */
 @media screen and (max-width: 576px) {
   .works img {
-  background-position: center;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,7 +228,12 @@ footer {
     width: 90%;
     height: 40vh;
     margin: 2%;
-}
-.works h1 { 
-  width: 100%;
+  }
+  .works h1 {
+    width: 100%;
+  }
+  .socialContainer {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
