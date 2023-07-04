@@ -1,7 +1,5 @@
 # simplyannz-web-portfolio
 
-# Refactor-Accessability-web
-
 ## Description
 
 For my portfolio, I chose to make my website very colorful and design-like. Images and logo is the design that I did. The website has a clickable link to the different sections (about, contact, and works). The first section is about me, which has an image on the left and a text box on the right. The following section has one large image and three small images when on large devices. And the contact section is in the footer that contains social media icons and contact info—pretty simple and straightforward.
