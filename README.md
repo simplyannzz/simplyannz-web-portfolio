@@ -25,10 +25,12 @@ I used the tools that I had on my computer, like Git, Vscode, Github, and Google
 ## Credits
 
 resources:
+Bootstrap: https://getbootstrap.com/docs/5.3/components/card/#using-custom-css
 https://www.youtube.com/watch?v=lgX38fNbxmw
 https://www.youtube.com/watch?v=jx5jmI0UlXU
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML
 
 ## License
 

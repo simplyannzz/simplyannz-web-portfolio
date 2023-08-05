@@ -201,6 +201,23 @@ footer {
   position: relative;
   margin: auto;
 }
+/* Button for Works Links */
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #c5852f;
+  --bs-btn-border-color: #c5852f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #c5852f;
+  --bs-btn-hover-border-color: #c5852f;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #c5852f;
+  --bs-btn-active-border-color: #c5852f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #c5852f;
+  --bs-btn-disabled-border-color: #c5852f;
+}
 
 /* This the Media Query */
 /* Tablets  */
@@ -223,7 +240,7 @@ footer {
   }
 }
 
-/* Small smartphones  */
+/* Medium size device (Ipad) */
 @media screen and (max-width: 576px) {
   .works img {
     background-position: center;
@@ -243,20 +260,24 @@ footer {
     flex-wrap: nowrap;
   }
 }
-/* Button for Works Links */
-.btn-primary {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #c5852f;
-  --bs-btn-border-color: #c5852f;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #c5852f;
-  --bs-btn-hover-border-color: #c5852f;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #c5852f;
-  --bs-btn-active-border-color: #c5852f;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #c5852f;
-  --bs-btn-disabled-border-color: #c5852f;
+/* Small Device: Viewports between 320px and 480px wide */
+@media only screen and (min-device-width: 320px) and (max-device-width: 510px) {
+  footer {
+    color: #ebe3d6;
+    padding-left: 50px;
+    /* padding-top: 15px;
+  text-align: center;
+  font-size: 18px; */
+  }
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: #ebe3d6;
+}
+/* .contact-me-text {
+    display: none;
+  }
+  p#hello {
+    display: none; */
+/* } */
