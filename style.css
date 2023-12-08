@@ -194,9 +194,18 @@ footer {
   padding-left: 2%;
 }
 #projectTwo {
-  margin-top: 70px;
+  margin-top: 140px;
   margin-bottom: 30px;
 }
+#projectThree {
+  margin-top: 85px;
+  margin-bottom: 30px;
+}
+#projectFour {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* Footer Contact social media icon */
 .social {
   width: 100px;
